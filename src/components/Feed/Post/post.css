@@ -1,0 +1,55 @@
+.post
+{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.post__header 
+{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+.post__header .post__info 
+{
+    margin-left: 10px;
+    height: 100%;
+}
+
+.post__header .post__info h2
+ {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.post__header .post__info p 
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.post__body 
+{
+    overflow-wrap:normal;
+    margin-bottom: 10px;
+
+
+}
+
+.post__buttons
+{
+    display: flex;
+    justify-content: space-around;
+
+}

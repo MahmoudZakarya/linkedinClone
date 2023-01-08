@@ -1,0 +1,143 @@
+.sidebar{
+    position:sticky;
+    display: flex;
+    flex-direction: column;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    height: fit-content;
+    margin: 15px 40px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+
+}
+
+.sidebar__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+    overflow: hidden;
+    width: 100%;
+    
+} 
+
+.sidebar__top img {
+    margin-bottom: -20px;
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.sidebar__avatar{
+    height: 60px !important;
+    width: 60px !important;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+.sidebar__top h4 {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px;
+    
+
+}
+.sidebar__top h2 {
+    font-size: 20px;
+    margin-bottom: 10px ;
+    cursor: pointer;
+    font-weight: 450;
+
+}
+
+.sidebar__top h2:hover{
+    text-decoration: underline;
+} 
+
+.sidebar__stats{
+    display: flex;
+    flex-direction: column;
+
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-top: 0;
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+}
+
+.sidebar__stat{
+    
+    display: flex;
+    padding: 5px 10px;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.sidebar__stat p {
+    color: gray;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.sidebar__stat p strong {
+    color: #0a66c2 !important;
+}
+.sidebar__stat:hover{
+    background-color:#f3f2ef ;
+}
+
+
+.sidebar__bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px soild lightgray;
+    background-color:white;
+    border-radius:10px;
+    margin-top:10px;
+    width: 100%;
+    
+}
+.sidebar__bottom > p {
+    padding: 5px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.sidebar__recentitem{
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    align-items: center;
+   }
+
+   .sidebar__recentitem:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+   }
+
+   .sidebar__hash{
+    margin-right: 5px;
+    margin-left: 5px;
+   }

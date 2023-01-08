@@ -1,0 +1,23 @@
+.input-option{
+    display: flex;
+    padding: 15px 5px;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 5px;
+    transition: 0.2s ease-in-out;
+
+
+}
+
+
+.input-option__icon
+{
+    margin-right: 7px;
+    margin-left: 5px;
+}
+
+
+.input-option:hover{
+    background-color: rgba(224, 224, 224, 0.685);
+    cursor: pointer;
+}

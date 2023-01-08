@@ -1,0 +1,125 @@
+.login
+{
+    height: 100%;
+    width: 100%;
+
+}
+
+.login__header
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+   align-items: center;
+   justify-content: flex-end;
+   z-index: 1000;
+
+}
+
+
+.login__header img 
+{
+    height: 80px;
+    width: 190px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-right: 50px;
+   
+}
+
+
+.login__body
+{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+}
+
+.login__formContainer
+{
+    display: flex;
+    height: 500px;
+    min-width: 350px;
+    flex-direction: column;
+    background-color: #f5f2f2;
+    border: 1px solid #0A66C2;
+    border-radius: 60px;
+    padding: 10px 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login___title
+{
+    padding: 0px 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login___title > h3 
+{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.login__form 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.login__formWrapper > form > input 
+{
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-color: transparent;
+    
+}
+
+.login__formWrapper > form > input:focus {
+    outline-color: #0A66C2;
+}
+
+
+.login__formWrapper > form > button {
+    height: 40px;
+    font-size: large;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0A66C2;
+    border-color: transparent;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+
+}
+
+.login__formWrapper .registerNow > p {
+    font-weight: 600;
+
+
+}
+
+.registerNow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__register {
+    color: #0A66C2;
+    font-weight: 700;
+    cursor: pointer ;
+} 
+
